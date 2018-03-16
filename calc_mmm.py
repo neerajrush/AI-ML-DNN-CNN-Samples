@@ -1,5 +1,5 @@
 ###################################
-# find out mode from the given array
+# find out mean, median, mode from the given array
 # example: mean: average: sum/count
 # example: median: sorted array, middle element if count is odd or average of middle two if count is even.
 # example: mode is an lowest value element
