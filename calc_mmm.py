@@ -14,13 +14,12 @@ def calc_mmm(arr):
 	""" ........ calc median ..... """
 	median = 0
 	n = int(len(arr)/2)
-	arr = sorted(arr)
-	if len(arr)%2 == 1:
-		median = arr[n]
+	arr_s = sorted(arr)
+	
+	if len(arr_s)%2 == 1:
+		median = arr_s[n]
 	else:
-		l1 = arr[n]
-		l2 = arr[n+1]
-		median = (l1 + l2) / 2
+		median = (arr_s[n] + arr_s[n+1]) / 2
 
 	""" ........ calc mode ..... """
 	mode = 0
