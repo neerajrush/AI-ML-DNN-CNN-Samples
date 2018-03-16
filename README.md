@@ -1,8 +1,10 @@
 # AI-ML-DNN-CNN-Samples
 
 AI:
+
   K-Nearest-Neighbors (KNN):
-    A supervised classifier. One of the simplest and powerful algorith for classification.
+  
+    A supervised classifier. One of the simplest and powerful algorithm for classification.
 
 ML:
 
